@@ -1,0 +1,28 @@
+<html>
+<meta charset="utf-8">
+<!-- aqui vão os arquivos de css e js que será usados em todas as paginas -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+<header>
+    <nav>
+        <ul class="nav-logo">
+            <li><a href=#>Frete</a></li>
+        </ul>
+        <ul>
+            <li><a href=#>Frete</a></li>
+        </ul>
+    </nav>
+</header>
+<title>
+    _Flask0_
+</title>
+
+<body>
+    <!-- aqui vai o arquivo html de cada pagina que usa essa como layout -->
+    {% block body %}{% endblock %}
+</body>
+<footer>
+    <span cass="marca">JVKS</span>
+</footer>
+
+</html>
